@@ -6,13 +6,25 @@ df = pd.read_csv(
 
 # CUSTOMER DIMENSION
 customer_dim = df[
-    ["Customer ID", "Customer Name", "Segment", "City", "State", "Region"]
-].drop_duplicates()
-
+    [
+        "Customer ID",
+        "Customer Name",
+        "Segment",
+        "City",
+        "State",
+        "Region"
+    ]
+].drop_duplicates(subset=["Customer ID"])
 # PRODUCT DIMENSION
+
 product_dim = df[
-    ["Product ID", "Product Name", "Category", "Sub-Category"]
-].drop_duplicates()
+    [
+        "Product ID",
+        "Product Name",
+        "Category",
+        "Sub-Category"
+    ]
+].drop_duplicates(subset=["Product ID"])
 
 # FACT SALES
 fact_sales = df[
