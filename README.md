@@ -115,7 +115,7 @@ Sales_ETL_Project
 
 ## Author
 
-Tanushree AMBADE
+Tanushree Ambade
 
 Cyber Security Engineering
 
