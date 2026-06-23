@@ -117,6 +117,4 @@ Sales_ETL_Project
 
 Tanushree Ambade
 
-Cyber Security Engineering
-
 Aspiring Data Engineer
