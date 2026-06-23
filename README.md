@@ -266,8 +266,3 @@ This project demonstrates a complete ETL pipeline from raw data ingestion to dat
 
 ---
 
-## Author
-
-Tanushree Ambade
-
-Aspiring Data Engineer
